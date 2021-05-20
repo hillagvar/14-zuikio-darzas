@@ -1,0 +1,59 @@
+/* basic */
+@import './basic/reset.css';
+@import './basic/layout.css';
+
+/* 3rd party */
+
+/* components */
+
+/* CUSTOM STYLE BELOW THIS COMMENT */
+
+
+/*HERO SECTION*/
+
+.container.hero {
+    background-color:rgb(199, 218, 204);
+    min-height: 100vh;
+}
+
+.hero > .main-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: rgb(52, 102, 67);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-description {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.items > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.items > img:hover {
+    width: 100px;
+    height: 100px;
+}
