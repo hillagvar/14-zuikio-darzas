@@ -58,8 +58,6 @@ class List {
         this.allItemsDOM = document.querySelectorAll('img.visible');
         this.allCartItemsDOM = document.querySelectorAll('img.invisible');
 
-        console.log(this.allItemsDOM);
-        console.log(this.allCartItemsDOM);
     }
 
     addEvents() {
