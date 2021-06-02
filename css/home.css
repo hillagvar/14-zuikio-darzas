@@ -79,16 +79,16 @@
   background-image: url("../img/cart.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 350px;
-  width: 185px;
+  height: 352px;
+  width: 200px;
   margin-top: 20px;
 }
 
 .cart-content {
   width: 120px;
   height: 75px;
-  margin-top: 20px;
-  margin-left: 45px;
+  margin-top: 25px;
+  margin-left: 54px;
 }
 
 .cart-content > img.invisible {
