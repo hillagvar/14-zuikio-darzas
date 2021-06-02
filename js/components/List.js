@@ -54,7 +54,6 @@ class List {
         this.generateItems();
         this.generateCartItems();
 
-        //this.DOM.insertAdjacentHTML('beforeend', HTML);
 
         this.allItemsDOM = document.querySelectorAll('img.visible');
         this.allCartItemsDOM = document.querySelectorAll('img.invisible');
