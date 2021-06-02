@@ -70,7 +70,7 @@ class List {
 
 
             itemDOM.addEventListener('click', () => {
-                itemDOM.classList.toggle('invisible');
+
                 cartItemDOM.classList.toggle('visible');
             })
         }
