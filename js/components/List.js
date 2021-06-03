@@ -106,7 +106,7 @@ class List {
 
 
                 // this.itemCountArray[i]--;
-                this.itemClickCount = this.itemCountArray[i];
+                // this.itemClickCount = this.itemCountArray[i];
                 this.itemsCount = this.itemsCount - this.itemCountArray[i];
 
                 this.itemsCountDOM = document.querySelector(this.itemsCountSelector);
