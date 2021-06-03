@@ -113,11 +113,6 @@ class List {
 
                 this.itemsCountDOM.innerText = `${this.itemsCount}`;
 
-
-                // console.log(this.itemsCount);
-                this.itemsCountDOM = document.querySelector(this.itemsCountSelector);
-
-                this.itemsCountDOM.innerText = `${this.itemsCount}`;
             })
 
         }
