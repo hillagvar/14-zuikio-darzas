@@ -90,8 +90,9 @@ class List {
                 cartItemDOM.classList.add('visible');
 
                 this.itemCountArray[i]++;
-                this.itemClickCount = this.itemCountArray[i];
+                //this.itemClickCount = this.itemCountArray[i];
                 this.itemsCount++;
+
 
                 // console.log(this.itemCountArray);
                 this.itemsCountDOM = document.querySelector(this.itemsCountSelector);
@@ -104,8 +105,9 @@ class List {
                 cartItemDOM.classList.remove('visible');
 
 
+                // this.itemCountArray[i]--;
                 this.itemClickCount = this.itemCountArray[i];
-                this.itemsCount = this.itemsCount - this.itemClickCount;
+                this.itemsCount = this.itemsCount - this.itemCountArray[i];
 
                 this.itemsCountDOM = document.querySelector(this.itemsCountSelector);
 
