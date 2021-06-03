@@ -1,11 +1,11 @@
 .container {
-    display: inline-block;
-    width: 100%;
-    padding: 50px;
+  display: inline-block;
+  width: 100%;
+  padding: 50px;
 }
 
 .main-row {
-    display: inline-block;
-    width: 1000px;
-    margin: 0 calc(50% - 500px);
+  display: inline-block;
+  width: 1000px;
+  margin: 0 calc(50% - 500px);
 }

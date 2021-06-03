@@ -5,4 +5,4 @@ import { itemsData } from "./data/itemsData.js";
 
 import { List } from './components/List.js';
 
-new List('.items', '.cart-content', itemsData);
+new List('.items', '.cart-content', itemsData, '.cart-count');
